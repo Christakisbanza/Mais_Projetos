@@ -1,0 +1,33 @@
+body{
+    background-color: rgba(0, 0, 0, 0.504);
+}
+main{
+    background-color: white;
+    box-shadow: 0px 0px 10px;
+    border-radius: 25px 0px 15px 0px;
+    padding-bottom: 15px;
+    text-align: center;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    
+}
+div#prin{
+    padding-right: 40px;
+}
+img{
+    display: flex;
+    justify-content: flex-start;
+
+}
+#ligar{
+    width: 100px;
+    height: 50px;
+}
+#desligar{
+    width: 100px;
+    height: 50px;
+}
+
