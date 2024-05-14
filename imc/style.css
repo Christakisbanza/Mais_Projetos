@@ -1,0 +1,71 @@
+@keyframes animacao{
+    0%{background-color:aliceblue;}
+    25%{background-color: aquamarine;}
+    50%{background-color: black;}
+    100%{background-color: aliceblue;}
+}
+body{
+    text-align: center;
+    animation: animacao 50s infinite;
+}
+main{
+    background-color: aquamarine;
+    height: 500px;
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px;
+    
+
+}
+header > p{
+    background-color: black;
+    height: 5px;
+    
+}
+div#mod{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#nome{
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+#altura{
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+#peso{
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+#clic{
+    background-color: black;
+    color: aquamarine;
+    width: 214px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+#msg{
+    background-color: black;
+    margin-top: 30px;
+    height: 100px;
+    width: 220px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    color: aquamarine;
+    padding-top: 30px;   
+}
+footer{
+    padding-top: 15px;
+}
